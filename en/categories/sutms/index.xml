@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SUTMS on Saftaja Payment Solution</title>
+    <link>http://localhost/en/categories/sutms/</link>
+    <description>Recent content in SUTMS on Saftaja Payment Solution</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Oct 2024 13:50:46 +0200</lastBuildDate>
+    <atom:link href="http://localhost/en/categories/sutms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Account Monitoring</title>
+      <link>http://localhost/en/open_banking_services/monitor/</link>
+      <pubDate>Thu, 03 Oct 2024 13:50:46 +0200</pubDate>
+      <guid>http://localhost/en/open_banking_services/monitor/</guid>
+      <description>Provides real-time tracking of account activities, alerts for unusual transactions, and insights into financial health. This enhances security and helps businesses make informed financial decisions.</description>
+    </item>
+    <item>
+      <title>Fees and Tax</title>
+      <link>http://localhost/en/open_banking_services/fees/</link>
+      <pubDate>Wed, 02 Oct 2024 13:50:46 +0200</pubDate>
+      <guid>http://localhost/en/open_banking_services/fees/</guid>
+      <description>Helps businesses track, calculate, and manage transaction fees and tax obligations efficiently. It minimizes errors and ensures compliance with financial regulations.</description>
+    </item>
+    <item>
+      <title>Transaction Reconciliation</title>
+      <link>http://localhost/en/open_banking_services/transaction_reconciliation/</link>
+      <pubDate>Tue, 01 Oct 2024 13:50:46 +0200</pubDate>
+      <guid>http://localhost/en/open_banking_services/transaction_reconciliation/</guid>
+      <description>This service automates the matching of transactions across accounts, reducing manual effort and improving financial accuracy. It ensures businesses maintain clear and organized financial records.</description>
+    </item>
+  </channel>
+</rss>
