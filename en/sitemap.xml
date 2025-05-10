@@ -2,185 +2,185 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/open_banking_services/monitor/</loc>
+    <loc>https://test.saftaja.com.sa/en/open_banking_services/monitor/</loc>
     <lastmod>2024-10-03T13:50:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/open_banking_services/monitor/"
+                href="https://test.saftaja.com.sa/ar/open_banking_services/monitor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/open_banking_services/monitor/"
+                href="https://test.saftaja.com.sa/en/open_banking_services/monitor/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://test.saftaja.com.sa/en/categories/</loc>
     <lastmod>2024-10-03T13:50:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/categories/"
+                href="https://test.saftaja.com.sa/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://test.saftaja.com.sa/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://test.saftaja.com.sa/en/</loc>
     <lastmod>2024-10-03T13:50:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/"
+                href="https://test.saftaja.com.sa/ar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://test.saftaja.com.sa/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/sutms/</loc>
+    <loc>https://test.saftaja.com.sa/en/categories/sutms/</loc>
     <lastmod>2024-10-03T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/sutms/</loc>
+    <loc>https://test.saftaja.com.sa/en/tags/sutms/</loc>
     <lastmod>2024-10-03T13:50:46+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://test.saftaja.com.sa/en/tags/</loc>
     <lastmod>2024-10-03T13:50:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tags/"
+                href="https://test.saftaja.com.sa/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://test.saftaja.com.sa/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/open_banking_services/fees/</loc>
+    <loc>https://test.saftaja.com.sa/en/open_banking_services/fees/</loc>
     <lastmod>2024-10-02T13:50:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/open_banking_services/fees/"
+                href="https://test.saftaja.com.sa/ar/open_banking_services/fees/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/open_banking_services/fees/"
+                href="https://test.saftaja.com.sa/en/open_banking_services/fees/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/open_banking_services/transaction_reconciliation/</loc>
+    <loc>https://test.saftaja.com.sa/en/open_banking_services/transaction_reconciliation/</loc>
     <lastmod>2024-10-01T13:50:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/open_banking_services/transaction_reconciliation/"
+                href="https://test.saftaja.com.sa/ar/open_banking_services/transaction_reconciliation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/open_banking_services/transaction_reconciliation/"
+                href="https://test.saftaja.com.sa/en/open_banking_services/transaction_reconciliation/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/open_banking_services/</loc>
+    <loc>https://test.saftaja.com.sa/en/open_banking_services/</loc>
     <lastmod>2024-02-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/open_banking_services/"
+                href="https://test.saftaja.com.sa/ar/open_banking_services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/open_banking_services/"
+                href="https://test.saftaja.com.sa/en/open_banking_services/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/about/</loc>
+    <loc>https://test.saftaja.com.sa/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/about/"
+                href="https://test.saftaja.com.sa/ar/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://test.saftaja.com.sa/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/authors/</loc>
+    <loc>https://test.saftaja.com.sa/en/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/authors/"
+                href="https://test.saftaja.com.sa/ar/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/authors/"
+                href="https://test.saftaja.com.sa/en/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
+    <loc>https://test.saftaja.com.sa/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/contact/"
+                href="https://test.saftaja.com.sa/ar/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact/"
+                href="https://test.saftaja.com.sa/en/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/news/</loc>
+    <loc>https://test.saftaja.com.sa/en/news/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/news/"
+                href="https://test.saftaja.com.sa/ar/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/news/"
+                href="https://test.saftaja.com.sa/en/news/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/pos/</loc>
+    <loc>https://test.saftaja.com.sa/en/pos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/pos/"
+                href="https://test.saftaja.com.sa/ar/pos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/pos/"
+                href="https://test.saftaja.com.sa/en/pos/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/softpos/</loc>
+    <loc>https://test.saftaja.com.sa/en/softpos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/softpos/"
+                href="https://test.saftaja.com.sa/ar/softpos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/softpos/"
+                href="https://test.saftaja.com.sa/en/softpos/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tsm/</loc>
+    <loc>https://test.saftaja.com.sa/en/tsm/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://localhost:1313/ar/tsm/"
+                href="https://test.saftaja.com.sa/ar/tsm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tsm/"
+                href="https://test.saftaja.com.sa/en/tsm/"
                 />
   </url>
 </urlset>
