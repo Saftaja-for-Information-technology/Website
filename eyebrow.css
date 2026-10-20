@@ -1,0 +1,82 @@
+.svp-eyebrow{
+  display:inline-flex;
+  width:auto;
+  align-items:center;
+  gap:8px;
+  padding:2px 16px 2px 2px;
+  border-radius:500px;
+  background:#fff;
+  box-shadow:0 0 0 1px rgba(12,29,54,.055),0 1px 2px rgba(12,29,54,.05);
+  font-size:14px;
+  font-weight:400;
+  line-height:1.5;
+  letter-spacing:normal;
+  text-transform:none;
+  white-space:nowrap;
+  vertical-align:middle;
+}
+
+.svp-eyebrow__chip{
+  display:grid;
+  width:24px;
+  height:24px;
+  flex:none;
+  place-items:center;
+  border-radius:50%;
+  background:#e9f0ff;
+  color:#095fd8;
+}
+
+.svp-eyebrow__chip svg{
+  width:16px;
+  height:16px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.5;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.svp-eyebrow__label{
+  color:#16233a;
+  font-size:14px;
+  font-weight:500;
+  line-height:1.5;
+  letter-spacing:-.008em;
+  text-transform:none;
+}
+.svp-eyebrow--on-dark,
+:root[data-hero-bg="investflow"] .hero-eyebrow.svp-eyebrow{
+  background:rgba(255,255,255,.09);
+  box-shadow:0 0 0 1px rgba(255,255,255,.16);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+.svp-eyebrow--on-dark .svp-eyebrow__chip,
+:root[data-hero-bg="investflow"] .hero-eyebrow.svp-eyebrow .svp-eyebrow__chip{
+  background:rgba(255,255,255,.14);
+  color:#9cc3ff;
+}
+.svp-eyebrow--on-dark .svp-eyebrow__label,
+:root[data-hero-bg="investflow"] .hero-eyebrow.svp-eyebrow .svp-eyebrow__label{
+  color:#eaf1fb;
+}
+.svp-eyebrow--on-light{
+  background:rgba(255,255,255,.7);
+  box-shadow:0 0 0 1px rgba(12,29,54,.08),0 8px 24px rgba(26,55,92,.08);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+}
+.svp-eyebrow--on-light .svp-eyebrow__chip{background:#e7efff;color:#095fd8}
+.svp-eyebrow--on-light .svp-eyebrow__label{color:#16233a}
+:root[data-theme="dark"] .svp-eyebrow:not(.svp-eyebrow--on-dark):not(.svp-eyebrow--on-light){
+  background:rgba(255,255,255,.05);
+  box-shadow:0 0 0 1px rgba(255,255,255,.09);
+}
+:root[data-theme="dark"] .svp-eyebrow:not(.svp-eyebrow--on-dark):not(.svp-eyebrow--on-light) .svp-eyebrow__chip{
+  background:rgba(59,130,246,.18);
+  color:#5b9dff;
+}
+:root[data-theme="dark"] .svp-eyebrow:not(.svp-eyebrow--on-dark):not(.svp-eyebrow--on-light) .svp-eyebrow__label{
+  color:#dbe6f4;
+}
+

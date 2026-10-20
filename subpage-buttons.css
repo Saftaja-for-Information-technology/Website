@@ -1,0 +1,28 @@
+.subpage-primary.fintechx-button{--fintech-button-font-size:16px}
+.subpage-header-cta.fintechx-button{--fintech-button-font-size:16px}
+.subpage-ghost{display:inline-flex;min-width:181px;min-height:50px;align-items:center;justify-content:center;padding:0 25px;border:1px solid rgba(44,70,96,.36);border-radius:999px;background:rgba(255,255,255,.08);color:#152944;font-size:16px;font-weight:400;text-decoration:none;transition:color .3s cubic-bezier(.16,1,.3,1),background-color .3s cubic-bezier(.16,1,.3,1),border-color .3s cubic-bezier(.16,1,.3,1),transform .3s cubic-bezier(.16,1,.3,1)}
+.subpage-ghost:hover,.subpage-ghost:focus-visible{border-color:#17314e;background:#17314e;color:#fff}
+.subpage-ghost:focus-visible{outline:3px solid rgba(37,99,235,.45);outline-offset:4px}
+.subpage-ghost:active{transform:scale(.98)}
+.product-hero .subpage-ghost,.not-found .subpage-ghost{border-color:rgba(222,237,255,.68);background:rgba(5,25,57,.48);color:#fff;backdrop-filter:blur(8px)}
+.product-hero .subpage-ghost:hover,.product-hero .subpage-ghost:focus-visible,.not-found .subpage-ghost:hover,.not-found .subpage-ghost:focus-visible{border-color:#fff;background:#fff;color:#0a1a31}
+html[dir="rtl"] .fintechx-button{font-family:"IBM Plex Sans Arabic","SVP Inter Display",Inter,sans-serif}
+html[dir="rtl"] .fintechx-button__surface{padding:.666667em 1.666667em .666667em 3em;background:linear-gradient(250deg,var(--fintech-button-blue-start) 0%,var(--fintech-button-blue-end) 100%)}
+html[dir="rtl"] .fintechx-button__icon--incoming{left:auto;right:-1.777778em;transform:rotate(45deg)}
+html[dir="rtl"] .fintechx-button__icon--outgoing{right:auto;left:.444444em;transform:rotate(0deg)}
+html[dir="rtl"] .fintechx-button:hover .fintechx-button__surface,html[dir="rtl"] .fintechx-button:focus-visible .fintechx-button__surface{padding-right:3em;padding-left:1.666667em}
+html[dir="rtl"] .fintechx-button:hover .fintechx-button__icon--incoming,html[dir="rtl"] .fintechx-button:focus-visible .fintechx-button__icon--incoming{left:auto;right:.444444em;transform:rotate(0deg)}
+html[dir="rtl"] .fintechx-button:hover .fintechx-button__icon--outgoing,html[dir="rtl"] .fintechx-button:focus-visible .fintechx-button__icon--outgoing{right:auto;left:-1.777778em;transform:rotate(-45deg)}
+html[dir="rtl"] .fintechx-button__icon svg{transform:scaleX(-1)}
+
+@media(max-width:900px){.subpage-header-cta{display:none!important}}
+@media(max-width:600px){
+  .subpage-primary.fintechx-button{--fintech-button-font-size:14px}
+  .product-hero__actions{flex-direction:row;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:9px;margin-top:24px}
+  .product-hero__actions .subpage-primary.fintechx-button,.product-hero__actions .fintechx-button__surface{width:auto}
+  .product-hero__actions .fintechx-button__surface{padding-inline:.9em 2.55em}
+  .product-hero__actions .subpage-ghost{min-width:144px;min-height:48px;padding-inline:15px;font-size:14px}
+  .article-actions .subpage-primary.fintechx-button,.article-actions .fintechx-button__surface{width:100%}
+  .article-actions .subpage-ghost{width:100%}
+}
+

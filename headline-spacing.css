@@ -1,0 +1,44 @@
+html[dir="ltr"] :is(
+  .hero-copy h1,
+  .trust-badges-head h2,
+  .places-head h2,
+  .solutions-head h2,
+  .security-head h2,
+  .news-head h2,
+  .faq-intro h2,
+  .cta-slab__copy h2,
+  .news-hero h1,
+  .news-listing h2,
+  .not-found h1,
+  .product-overview h2,
+  .product-related h2,
+  .subpage-footer__intro h2
+){
+  letter-spacing:-.022em;
+  word-spacing:.08em;
+}
+
+html[dir="ltr"] :is(
+  .news-card h2,
+  .news-card h3,
+  .sec-tile h3,
+  .faq-support h3,
+  .places-item h3,
+  .faq-q,
+  .trust-badge h3,
+  .product-list strong,
+  .page-heading h2
+){
+  letter-spacing:-.012em;
+  word-spacing:.05em;
+}
+html[dir="ltr"][data-hero-layout] .hero-copy h1{letter-spacing:-.022em}
+html[dir="rtl"][data-hero-layout] .hero-copy h1,
+html[dir="rtl"] :is(.news-listing h2,.news-card h2,.news-card h3,.not-found h1){
+  letter-spacing:0;
+}
+html[dir="rtl"] .page-heading h2{
+  letter-spacing:-.012em;
+  word-spacing:.05em;
+}
+

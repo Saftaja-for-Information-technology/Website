@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "SVP Inter Display";
+  src: url("./assets/inter-display-600-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+.fintechx-button {
+  --fintech-button-font-size: 18px;
+  --fintech-button-ease: cubic-bezier(.44, 0, .56, 1);
+  --fintech-button-duration: .4s;
+  --fintech-button-blue-start: #2f73f5;
+  --fintech-button-blue-end: #2a5be9;
+  --fintech-button-blue-border: #4781f1;
+  --fintech-button-blue-shadow: rgba(42, 91, 233, .48);
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .333333em;
+  overflow: visible;
+  border: 0;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, .1);
+  color: #fff;
+  font-family: "SVP Inter Display", Inter, sans-serif;
+  font-size: var(--fintech-button-font-size);
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(.277778em);
+  backdrop-filter: blur(.277778em);
+  -webkit-font-smoothing: antialiased;
+}
+
+.fintechx-button::after,
+.fintechx-button__surface::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 255, 255, .7);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.fintechx-button__surface {
+  position: relative;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: min-content;
+  padding: .666667em 3em .666667em 1.666667em;
+  overflow: hidden;
+  border-radius: 100px;
+  background: linear-gradient(110deg, var(--fintech-button-blue-start) 0%, var(--fintech-button-blue-end) 100%);
+  box-shadow:
+    inset .222222em .222222em .444444em rgba(255, 255, 255, .3),
+    inset -.222222em -.222222em .444444em rgba(255, 255, 255, .3),
+    0 .444444em .888889em var(--fintech-button-blue-shadow);
+  transition: padding var(--fintech-button-duration) var(--fintech-button-ease);
+  will-change: padding;
+}
+
+.fintechx-button__surface::after {
+  border-color: var(--fintech-button-blue-border);
+}
+
+.fintechx-button__label {
+  position: relative;
+  z-index: 1;
+  display: block;
+  flex: none;
+  letter-spacing: 0;
+}
+
+.fintechx-button__icon {
+  position: absolute;
+  top: .444444em;
+  bottom: .444444em;
+  display: grid;
+  width: 1.722222em;
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 50%;
+  background: #fff;
+  color: #1d1d1d;
+  transition:
+    left var(--fintech-button-duration) var(--fintech-button-ease),
+    right var(--fintech-button-duration) var(--fintech-button-ease),
+    transform var(--fintech-button-duration) var(--fintech-button-ease);
+  will-change: left, right, transform;
+}
+
+.fintechx-button__icon svg {
+  display: block;
+  width: .666667em;
+  height: auto;
+  overflow: visible;
+}
+
+.fintechx-button__icon--incoming {
+  left: -1.777778em;
+  transform: rotate(-45deg);
+}
+
+.fintechx-button__icon--outgoing {
+  right: .444444em;
+  transform: rotate(0deg);
+}
+
+.fintechx-button:hover .fintechx-button__surface,
+.fintechx-button:focus-visible .fintechx-button__surface {
+  padding-right: 1.666667em;
+  padding-left: 3em;
+}
+
+.fintechx-button:hover .fintechx-button__icon--incoming,
+.fintechx-button:focus-visible .fintechx-button__icon--incoming {
+  left: .444444em;
+  transform: rotate(0deg);
+}
+
+.fintechx-button:hover .fintechx-button__icon--outgoing,
+.fintechx-button:focus-visible .fintechx-button__icon--outgoing {
+  right: -1.777778em;
+  transform: rotate(45deg);
+}
+
+.fintechx-button:focus-visible {
+  outline: 3px solid rgba(22, 89, 232, .72);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fintechx-button__surface,
+  .fintechx-button__icon {
+    transition-duration: .01ms;
+  }
+}

@@ -1,0 +1,91 @@
+@media (max-width:600px){
+  .solutions-section,.security-section,.news-section,.faq-section,.cta-band,.site-footer{
+    --ink:#eef3fa;--ink-soft:#a3b4c8;--muted:#7d8da1;--line:#1f2c40;
+    --line-soft:#182234;--surface:#0c1524;--surface-soft:#111c2e;
+    --blue:#3b82f6;--blue-soft:rgba(59,130,246,.16);--tone-end:#04070f;
+    color:#eef3fa;background:#071222;
+  }
+  .solutions-section .solutions-head h2 {color:#f4f7fb}
+  .solutions-section .solution-card {background:color-mix(in srgb,var(--surface) 92%,#000);
+  box-shadow:0 1px 2px rgba(0,0,0,.4),0 16px 40px -22px rgba(0,0,0,.7);}
+  .solutions-section .solution-card__media {background:#031437;}
+  .solutions-section .solutions-watermark span.is-current {opacity:.085}
+  .security-section .security-eyebrow {color:#5b9dff}
+  .security-section .security-head h2 {color:#f4f7fb}
+  .security-section .security-lede {color:#9aabbe}
+  .security-section .security-link {border-color:rgba(255,255,255,.18);color:#dbe6f4}
+  .security-section .security-link svg {background:rgba(255,255,255,.1)}
+  .security-section .security-link:hover,
+  .security-section .security-link:focus-visible {border-color:#5b9dff;background:#5b9dff;color:#0b1424}
+  .security-section .sec-tile {border-color:rgba(255,255,255,.07);
+  background:rgba(15,25,42,.66);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 20px 50px rgba(2,8,20,.42);}
+  .security-section .sec-tile:hover {box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 30px 68px rgba(2,8,20,.55)}
+  .security-section .sec-tile .sec-tile__label {color:#8494a8}
+  .security-section .sec-tile h3 {color:#eef3fa}
+  .security-section .sec-tile p {color:#9aabbe}
+  .security-section .sec-tile--pci {border-color:rgba(255,255,255,.1);
+  background:linear-gradient(152deg,#0a2360 0%,#123f9c 46%,#2560e2 100%);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 26px 60px rgba(2,8,20,.5);}
+  .security-section .sec-tile--pci h3 {color:#fff}
+  .security-section .sec-tile--pci p {color:rgba(219,232,255,.8)}
+  .security-section .sec-layer {background:linear-gradient(100deg,rgba(91,157,255,.16),rgba(91,157,255,.05));box-shadow:inset 0 0 0 1px rgba(91,157,255,.18);color:#a8c6f0}
+  .security-section .sec-ribbon {border-color:rgba(255,255,255,.07);
+  background:linear-gradient(100deg,rgba(22,38,66,.85),rgba(15,25,42,.6));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 14px 36px rgba(2,8,20,.4);}
+  .security-section .sec-ribbon p {color:#9aabbe}
+  .security-section .sec-ribbon strong {color:#eef3fa}
+  .faq-section .faq-eyebrow {color:#5b9dff}
+  .faq-section .faq-intro h2 {color:#f4f7fb}
+  .faq-section .faq-support {border-color:rgba(255,255,255,.08);
+  background:rgba(17,28,46,.72);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 18px 44px rgba(2,8,20,.5);}
+  .faq-section .faq-support h3 {color:#eef3fa}
+  .faq-section .faq-support p,
+  .faq-section .faq-a p {color:#9aabbe}
+  .faq-section .faq-face {--faq-face-ring:#0f1a2b}
+  .faq-section .faq-face--you {background:#233c5c}
+  .faq-section .faq-plus {color:#7d8da1}
+  .faq-section .faq-item {border-color:rgba(255,255,255,.07);
+  background:rgba(15,25,42,.66);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 10px 26px rgba(2,8,20,.4);}
+  .faq-section .faq-item:hover {background:rgba(20,32,53,.8)}
+  .faq-section .faq-item.is-open {border-color:rgba(91,157,255,.26);
+  background:rgba(22,38,66,.85);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 16px 38px rgba(2,8,20,.5);}
+  .faq-section .faq-q {color:#eef3fa}
+  .faq-section .faq-sign {background:rgba(255,255,255,.1)}
+  .faq-section .faq-sign i {background:#dce7f5}
+  .faq-section .faq-item.is-open .faq-sign {background:#5b9dff}
+  .faq-section .faq-item.is-open .faq-sign i {background:#0b1424}
+  .cta-band .cta-loft {border-color:rgba(255,255,255,.08);
+  background:rgba(17,28,46,.72);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 30px 72px rgba(2,8,20,.55);}
+  .cta-band .cta-baseline__mail {color:#7fb0ff;border-bottom-color:rgba(127,176,255,.3)}
+  .cta-band .cta-baseline__place {color:#8f9db1}
+  .news-section .news-eyebrow {color:#5b9dff}
+  .news-section .news-head h2 {color:#f4f7fb}
+  .news-section .news-lede {color:#a9bccf}
+  .news-section .news-all {border-color:rgba(255,255,255,.24);color:#eaf1f8}
+  .news-section .news-all svg {background:rgba(255,255,255,.1)}
+  .news-section .news-all:hover,
+  .news-section .news-all:focus-visible {border-color:#fff;background:#fff;color:#0b1424}
+  .news-section .news-all:hover svg,
+  .news-section .news-all:focus-visible svg {background:rgba(11,20,36,.12)}
+  .news-section .news-all:focus-visible {outline-color:rgba(96,152,255,.5)}
+  .news-section .news-card {border-color:rgba(255,255,255,.08);
+  background:rgba(16,27,44,.72);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 20px 50px rgba(0,0,0,.4);}
+  .news-section .news-card:hover,
+  .news-section .news-card:focus-within {box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 30px 68px rgba(0,0,0,.55);}
+  .news-section .news-card__art {background:linear-gradient(142deg,#12327f 0%,#2258d2 46%,#3b82f6 100%)}
+  .news-section .news-card__art--security {background:linear-gradient(142deg,#0e2660 0%,#1c4bc0 44%,#2f74ea 100%)}
+  .news-section .news-chip {color:#7fb0ff}
+  .news-section .news-card__link {color:#eef3fa}
+  .news-section .news-card p {color:#9aabbe}
+  .cta-band {background:linear-gradient(180deg,#071222 0%,#071222 68%,#04070f 100%)}
+  .site-footer {background:var(--tone-end)}
+  .site-footer .site-footer__wordmark {color:rgba(206,228,255,.28)}
+  .site-footer .site-footer__aura {background:radial-gradient(ellipse at 50% 48%,rgba(132,182,255,.7) 0%,rgba(72,132,255,.5) 21%,rgba(37,91,226,.34) 44%,rgba(18,50,142,.16) 66%,rgba(9,27,76,.07) 79%,transparent 91%);}
+}
+
