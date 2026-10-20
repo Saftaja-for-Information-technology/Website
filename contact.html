@@ -17,8 +17,8 @@
   <link rel="stylesheet" href="subpage-footer.css?v=6">
   <link rel="stylesheet" href="headline-spacing.css?v=2">
   <link rel="stylesheet" href="product-navigation.css?v=2">
-  <link rel="stylesheet" href="contact.css?v=3">
-  <script src="contact.js?v=3" defer></script>
+  <link rel="stylesheet" href="contact.css?v=4">
+  <script src="contact.js?v=4" defer></script>
   <script src="subpage-footer.js?v=4" defer></script>
 </head>
 <body>
@@ -57,19 +57,10 @@
         </div>
         <div class="contact-form-area" id="contact-form">
           <div class="contact-form-area__head"><p class="contact-section__eyebrow" data-form-label>Send a message</p><h2 id="contact-form-heading" data-form-title>Tell us how we can help.</h2><p data-form-body>Tell us a little about your enquiry, and we'll direct it to the right team.</p></div>
-          <p class="contact-form-preview" data-form-preview>Form design preview — online submissions are not active yet.</p>
-          <form class="contact-form" aria-labelledby="contact-form-heading">
-            <fieldset disabled>
-              <div class="contact-form__grid">
-                <label class="contact-form__field"><span data-form-name-label>Your name</span><input type="text" name="name" autocomplete="name" placeholder="Your full name" data-form-name-placeholder></label>
-                <label class="contact-form__field"><span data-form-email-label>Work email</span><input type="email" name="email" autocomplete="email" placeholder="name@company.com" data-form-email-placeholder></label>
-                <label class="contact-form__field"><span data-form-company-label>Company</span><input type="text" name="company" autocomplete="organization" placeholder="Company name" data-form-company-placeholder></label>
-                <label class="contact-form__field"><span data-form-topic-label>Enquiry type</span><select name="topic"><option value="" selected data-form-topic-default>Select a topic</option><option value="products" data-form-topic-products>Product enquiry</option><option value="support" data-form-topic-support>Support</option><option value="other" data-form-topic-other>Other</option></select></label>
-                <label class="contact-form__field contact-form__field--full"><span data-form-message-label>Message</span><textarea name="message" rows="6" placeholder="How can we help?" data-form-message-placeholder></textarea></label>
-              </div>
-              <div class="contact-form__actions"><button class="contact-form__submit" type="submit" disabled><span data-form-submit>Send message</span><span aria-hidden="true">↗</span></button><span class="contact-form__status" data-form-status>Submissions will be connected before launch.</span></div>
-            </fieldset>
-          </form>
+          <div class="zoho-form">
+            <p class="zoho-form__loading" data-form-loading role="status">Loading form…</p>
+            <iframe class="zoho-form__frame" title="Contact form" aria-label="Contact form" data-zoho-form src="https://forms.zohopublic.sa/businesssaf1/form/SaftajaWebsite/formperma/RJeJDTbFU4OTvV7XkvgEpGS8UWNTSgdSI84vbDANkNM?zf_rszfm=1"></iframe>
+          </div>
           <p class="contact-form-note" data-form-security>Do not include card details, PINs, one-time passwords, or account passwords.</p>
           <a class="contact-form-fallback" href="mailto:info@saftaja.com.sa" data-form-fallback>Email our team instead <span aria-hidden="true">↗</span></a>
         </div>

@@ -23,6 +23,22 @@
             if (event.key === "Escape") setMenuOpen(false);
         });
     }
+    var zohoFrame = document.querySelector("[data-zoho-form]");
+    if (zohoFrame) {
+        var zohoWrap = zohoFrame.parentNode;
+        zohoFrame.addEventListener("load", function() {
+            zohoWrap.classList.add("is-loaded");
+        });
+        // Zoho posts "perma|height" (or "perma|height|scroll") when zf_rszfm=1 is set.
+        window.addEventListener("message", function(event) {
+            if (event.origin !== "https://forms.zohopublic.sa" || typeof event.data !== "string") return;
+            var parts = event.data.split("|");
+            if (parts.length < 2 || zohoFrame.src.indexOf(parts[0]) === -1) return;
+            var height = parseInt(parts[1], 10);
+            if (height > 0) zohoFrame.style.height = (height + 15) + "px";
+            zohoWrap.classList.add("is-loaded");
+        });
+    }
     if (!isArabic) return;
     document.documentElement.lang = "ar";
     document.documentElement.dir = "rtl";
@@ -57,22 +73,11 @@
     set("[data-form-label]", "أرسل رسالة");
     set("[data-form-title]", "أخبرنا كيف يمكننا مساعدتك.");
     set("[data-form-body]", "أخبرنا عن استفسارك لنوجّهه إلى الفريق المناسب.");
-    set("[data-form-preview]", "معاينة للتصميم — إرسال النموذج غير متاح بعد.");
-    set("[data-form-name-label]", "الاسم");
-    set("[data-form-email-label]", "البريد الإلكتروني للعمل");
-    set("[data-form-company-label]", "الشركة");
-    set("[data-form-topic-label]", "نوع الاستفسار");
-    set("[data-form-topic-default]", "اختر الموضوع");
-    set("[data-form-topic-products]", "استفسار عن المنتجات");
-    set("[data-form-topic-support]", "الدعم");
-    set("[data-form-topic-other]", "أخرى");
-    set("[data-form-message-label]", "الرسالة");
-    set("[data-form-submit]", "إرسال الرسالة");
-    set("[data-form-status]", "سيتم ربط إرسال الرسائل قبل إطلاق الموقع.");
-    document.querySelector("[data-form-name-placeholder]").placeholder = "الاسم الكامل";
-    document.querySelector("[data-form-email-placeholder]").placeholder = "name@company.com";
-    document.querySelector("[data-form-company-placeholder]").placeholder = "اسم الشركة";
-    document.querySelector("[data-form-message-placeholder]").placeholder = "كيف يمكننا مساعدتك؟";
+    set("[data-form-loading]", "جارٍ تحميل النموذج…");
+    if (zohoFrame) {
+        zohoFrame.title = "نموذج التواصل";
+        zohoFrame.setAttribute("aria-label", "نموذج التواصل");
+    }
     set("[data-form-security]", "لا تدرج بيانات البطاقات أو أرقام التعريف الشخصية أو رموز التحقق أو كلمات مرور الحسابات.");
     set("[data-form-fallback]", "راسل فريقنا عبر البريد الإلكتروني ↗");
     var details = document.querySelector(".contact-section");
